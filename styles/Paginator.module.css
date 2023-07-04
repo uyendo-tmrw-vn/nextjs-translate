@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  margin-top: 84px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 360px;
+}
+
+.root button {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #737b7d;
+  border-radius: 4px;
+  margin: 0px 8px;
+  background-color: white;
+  transition-duration: 0.3s;
+  color: #737b7d;
+}
+
+.root button:hover {
+  background-color: #352e1f;
+  color: white;
+}
+
+.active {
+  background-color: #352e1f !important;
+  color: white !important;
+}

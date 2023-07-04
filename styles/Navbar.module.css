@@ -1,0 +1,124 @@
+.listContainer {
+  box-shadow: none;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  list-style: none;
+  text-align: center;
+}
+
+.list li {
+  height: 70px;
+}
+
+.list li::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #352e1f;
+}
+
+.list li:hover::after {
+  width: 50%;
+  border-radius: 20px;
+  color: #352e1f;
+  position: relative;
+  margin: 0 auto;
+  bottom: 20px;
+  transition: ease 0.3s;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navActive {
+  font-weight: 700 !important;
+}
+
+.navLink {
+  text-align: left;
+  font-size: 16px;
+  color: #352e1f;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  height: 100%;
+  margin: 0 16px;
+}
+
+.navLink:hover {
+  color: #352e1f;
+  transition: all 0.3s ease;
+}
+
+.languageSelector {
+  text-align: left;
+  font-size: 12px;
+  color: #352e1f;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  height: 100%;
+  margin: 0 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.languageSelector:hover {
+  color: #352e1f;
+  transition: all 0.3s ease;
+}
+
+.languageSelector::before {
+  content: url('/language.svg');
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+}
+
+.buttonLink {
+  cursor: pointer;
+  margin: 0 0 0 16px;
+}
+
+
+.drawer a {
+  width: 100%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+@media only screen and (max-width: 1035px) {
+  .buttonLink {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .listContainer {
+    background-color: white;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+
+  .languageSelector {
+    width: initial;
+  }
+}

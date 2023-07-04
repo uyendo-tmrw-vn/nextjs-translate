@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "naratik-c29e7"
+  },
+  "targets": {
+    "naratik-c29e7": {
+      "hosting": {
+        "narauction": [
+          "narauction"
+        ]
+      }
+    }
+  }
+}

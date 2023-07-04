@@ -1,0 +1,9 @@
+.book {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.page {
+  padding: 24px;
+  background-color: antiquewhite;
+  box-shadow: inset -7px 0 30px -7px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,70 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.normal {
+  height: 56px;
+  width: 56px;
+  border-radius: 56px;
+}
+
+.small {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
+
+.normal .shadows {
+  filter: drop-shadow(0px 4px 34px rgba(9, 44, 76, 0.24));
+}
+
+.small .shadows {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.outline {
+  border: 2px solid #dde0e4;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.primary {
+  background: #352e1f;
+}
+
+.secondary {
+  background: #feb528;
+}
+
+.info {
+  background: #53a8f8;
+}
+
+.success {
+  background: #01917d;
+}
+
+.warning {
+  background: #ffd336;
+}
+
+.error {
+  background: #ff7d7d;
+}
+
+.white {
+  background: white;
+}
+
+.transparent {
+  background: transparent;
+}

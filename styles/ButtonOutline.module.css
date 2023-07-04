@@ -1,0 +1,131 @@
+.button {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.3s;
+  color: #352e1f;
+  background: white;
+}
+
+.button:hover {
+  background: hsl(0, 0%, 70%);
+}
+
+.round {
+  border-radius: 39px;
+}
+
+.primary {
+  border: 2px solid #352e1f;
+}
+
+.primary:hover {
+  border: 2px solid #241f15;
+}
+
+.secondary {
+  border: 2px solid #feb528;
+}
+
+.secondary:hover {
+  border: 2px solid #b3811d;
+}
+
+.info {
+  border: 2px solid #53a8f8;
+}
+
+.info:hover {
+  border: 2px solid #3975ad;
+}
+
+.success {
+  border: 2px solid #01917d;
+}
+
+.success:hover {
+  border: 2px solid #016659;
+}
+
+.warning {
+  border: 2px solid #ffd336;
+}
+
+.warning:hover {
+  border: 2px solid #b39425;
+}
+
+.error {
+  border: 2px solid #ff7d7d;
+}
+
+.error:hover {
+  border: 2px solid #b35757;
+}
+
+.disabled {
+  border: 2px solid #dde0e4;
+}
+
+.disabled:hover {
+  border: 2px solid #999b9e;
+}
+
+.secondaryPale {
+  border: 2px solid #FFE3AE;
+}
+
+.secondaryPale:hover {
+  border: 2px solid #f3dfba;
+}
+
+.secondaryPaleDisabled {
+  border: 2px solid #FFF3DC;
+}
+
+.secondaryPaleDisabled:hover {
+  border: 2px solid #faf1e1;
+}
+
+.transparent {
+  background: transparent !important;
+  border: 2px solid #dde0e4;
+  color: white;
+}
+
+.transparent:hover {
+  background: transparent !important;
+  border: 2px solid #999b9e;
+  color: white;
+}
+
+.small {
+  padding: 14px 28px;
+  /* width: 143px; */
+  height: 48px;
+}
+
+.normal {
+  padding: 16px 32px;
+  /* width: 177px; */
+  height: 55px;
+}
+
+.medium {
+  padding: 18px 32px;
+  width: 199px;
+  height: 62px;
+}
+
+.large {
+  padding: 20px 40px;
+  /* width: 206px; */
+  height: 68px;
+}
+
+.nav {
+  padding: 10px 20px;
+  /* width: 100px; */
+  height: 41px;
+}

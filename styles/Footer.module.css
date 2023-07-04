@@ -1,0 +1,108 @@
+.footer {
+  background-color: #352e1f;
+  padding: 84px 0;
+  color: white;
+}
+
+.centerContainer {
+  display: flex;
+  justify-content: center !important;
+  align-items: stretch !important;
+  flex-direction: column !important;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  margin-top: 24px;
+  border: none;
+}
+
+.subscribe {
+  text-align: left;
+}
+
+.subscribe h5 {
+  margin: 24px 0 0 0;
+}
+
+.subscribe button {
+  width: 100%;
+}
+
+.subscribe input {
+  width: 100%;
+}
+
+.iconBar {
+  margin: 24px;
+  display: grid;
+  grid-template-columns: 42px 42px 42px;
+
+}
+
+.mainContainer h5 {
+  color: #fde8cd;
+}
+
+.bottomContainer {
+  margin-top: 60px;
+  border-top: 1px solid white;
+  padding-top: 12px;
+}
+
+.bottomDivider {
+  margin: 0 18px;
+  height: 18px;
+  width: 1px;
+  background: white;
+}
+
+.scrollToTop {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: #feb528;
+  height: 42px;
+  width: 42px;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.scrollToTop:hover {
+  background: #b39425;
+}
+
+@media only screen and (max-width: 900px) {
+  .logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subscribe {
+    text-align: center;
+  }
+
+  .subscribe button {
+    margin-top: 24px;
+  }
+}
